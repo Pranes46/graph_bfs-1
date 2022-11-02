@@ -4,7 +4,7 @@
 #         self.val = val
 #         self.left = left
 #         self.right = right
-class Solution:
+class Solution:  #tc - o(n(. sc - o(n)
     def isCousins(self, root: Optional[TreeNode], x: int, y: int) -> bool:
         
         q = deque()  #initailiazing the queue using deque
