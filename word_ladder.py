@@ -1,5 +1,5 @@
 class Solution:
-    def ladderLength(self, beginWord: str, endWord: str, wordList: List[str]) -> int:
+    def ladderLength(self, beginWord: str, endWord: str, wordList: List[str]) -> int:  #tc - o(n), sc - o(n)
         
         
         m = len(wordList[0])  #calculating the len of wordlist
